@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class Rectangle_Main
+{
+public static void main(String[] args)
+{
+
+Rectangle R1=new Rectangle();
+Rectangle R2=new Rectangle();
+
+Scanner sc=new Scanner(System.in);
+R1.length=6;
+R1.width=7;
+R2.length=8;
+R2.width=9;
+
+R1.circumference=2*(R1.length+R1.width);
+R1.area=R1.length*R1.width;
+
+R2.circumference=2*(R2.length+R2.width);
+R2.area=R2.length*R2.width;
+
+System.out.println("Print Rectangle1 information");
+System.out.println("Color of the rectangle is"+Rectangle.color);
+System.out.println("Print Rectangle circumference of rectangle1"+R1.circumference);
+System.out.println("Print Rectangle area of rectangle1"+R1.area);
+
+System.out.println("******************************************");
+
+System.out.println("Print Rectangle2 information");
+System.out.println("Color of the rectangle is"+Rectangle.color);
+System.out.println("Print Rectangle circumference of rectangle2"+R2.circumference);
+System.out.println("Print Rectangle area of rectangle2"+R2.area);
+}
+}

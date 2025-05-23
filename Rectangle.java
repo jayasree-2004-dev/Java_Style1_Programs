@@ -1,0 +1,7 @@
+class Rectangle{
+public static String color="blue";
+public int length;
+public int width;
+public int area;
+public int circumference;
+}
